@@ -18,6 +18,10 @@ body {
 	align-items: center;
 }
 
+.carousel-item img {
+	object-fit: fill;
+}
+
 .top-header .name {
 	font-size: 26px;
 }
