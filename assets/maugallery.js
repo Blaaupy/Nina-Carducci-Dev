@@ -127,7 +127,7 @@
       $(`#${lightboxId}`).modal("toggle");
     },
 
-    prevImage() {
+    prevImage() { // Sert pour la navigation dans la modal
       let activeImage = null;
 
       // Trouver l'image actuellement affichée dans la lightbox
@@ -175,7 +175,7 @@
       $(".lightboxImage").attr("src", $(imagesCollection[index]).attr("src"));
     },
 
-    nextImage() {
+    nextImage() { // Sert pour la navigation dans la modal
       let activeImage = null;
 
       // Trouver l'image actuellement affichée dans la lightbox
