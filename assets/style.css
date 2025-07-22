@@ -94,6 +94,22 @@ header {
 	font-size: 14px;
 }
 
+.about-me__introduction {
+	font-size: 16px;
+}
+
+h1 .title, h1, h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+.quote__text {
+	font-size: 40px;
+}
+
 #gallery {
 	/*	min-height: 100vh; */
 }
